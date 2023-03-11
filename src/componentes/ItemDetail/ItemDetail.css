@@ -1,0 +1,12 @@
+.itemDetail {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.item {
+    font-size: 400px;
+}

@@ -1,0 +1,134 @@
+
+.contenedor-lista {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 80px;
+  background-color: black;
+  opacity: 95%;
+  color: white;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+ 
+}
+.logo {
+  width: 2rem;
+  margin-right: 1rem;
+ 
+  
+}
+
+
+.item-lista {
+  display: flex;
+  margin-left: 2rem;
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 1.5rem;
+
+}
+.brandname {
+  font-size: 1.5rem;
+  padding-right: 3rem;
+ 
+ 
+}
+
+.carrito {
+  color: black;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 1 rem;
+  padding: 0.3rem;
+  
+}
+
+.search {
+  border: 1px solid white;
+  background-color: white;
+  margin: 1rem;
+  padding: 0.3rem;
+  border-radius: 15px;
+ 
+}
+.search-field {
+  border:none;
+  height: 1.8rem;
+  width: 10rem;
+}
+.btn-search {
+  cursor:pointer;
+  border: none;
+  background-color: white;
+}
+
+.btn-xbox:hover {
+  color: greenyellow;
+ 
+
+}
+
+.btn-ps:hover {
+  color: #0247b6;
+  
+  
+}
+
+.btn-pc:hover {
+  color: gold;
+  
+}
+
+
+@media screen and (max-width: 700px) {
+
+
+
+  .contenedor-lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    font-size: 0.3rem;
+    height: 40px;
+
+  }
+
+  .brandname{ 
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  .logo, .search, .search-field, .btn-search{
+    display: none;
+  }
+
+  .btn-pc, .btn-ps, .btn-xbox {
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .item-lista {
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    padding: 0;
+    
+  }
+
+  .carrito {
+    padding: 0;
+    margin: 0;
+    margin-left: 0.3 rem;
+    border-radius: 5px;
+    
+  }
+
+  
+
+
+}
