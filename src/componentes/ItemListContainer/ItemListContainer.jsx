@@ -17,8 +17,10 @@ const ItemListContainer = ({isCategoria, categoria }) => {
         if(isCategoria){
           const gamesFiltered = gamesList.filter((juego) => juego.category == categoria)
         {setGame(gamesFiltered)} 
+        document.title = "Proyecto final | Juegos de " + categoria
         }else{
           setGame(gamesList)
+          document.title = "Proyecto final | Pablo Percara "
         }
       })
       .catch((error) => {
