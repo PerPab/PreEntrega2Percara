@@ -3,16 +3,17 @@ import './ItemCount.css'
 import { useState, useEffect } from 'react'
 
 const ItemCount = ({stockParam}) => {
-  let stock = stockParam
-  const [contador, setContador] = useState(0)
-  const [stockDis, setStock] = useState(stock)
-
- useEffect(()=>{
-  setStock(stock)
-
- })
 
  
+  const [contador, setContador] = useState(0)
+  const [stockDis, setStock] = useState(stockParam)
+
+
+  useEffect(()=>{
+    stockDis == undefined && setStock(stockParam)
+  })
+
+
  
   return (
     <div>
@@ -21,13 +22,13 @@ const ItemCount = ({stockParam}) => {
      
     <button className='btn' onClick={()=>{
       contador > 0 && setContador(contador - 1)
-      setStock(stockDis + 1)
+      contador > 0 && setStock(stockDis + 1)
 
 
     }}>-</button>
     <div>{contador}</div>
     <button className='btn' onClick={()=>{
-      stock > 0 && setContador(contador + 1)
+      stockDis > 0 && setContador(contador + 1)
       stockDis > 0 && setStock(stockDis - 1)
 
     }}>+</button>
