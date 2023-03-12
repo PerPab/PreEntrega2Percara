@@ -3,7 +3,7 @@ import "../CartWidget/CartWidget.css";
 
 
 function CartWidget() {
-  const url= './public/cart.svg'
+  const url='/cart.svg'
   return (
     <>
         <div className="contenedor-carrito">
