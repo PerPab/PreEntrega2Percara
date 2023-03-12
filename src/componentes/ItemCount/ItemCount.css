@@ -8,7 +8,7 @@
     
 }
 
-.btn{
+.btn-contador{
     display: flex;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -19,20 +19,36 @@
     background-color: #C20B61;
     color: white;
     border-radius: 1rem;
+    border: none;
 }
 
 .stock{
     display: flex;
-    font-size: 1rem;
+    font-size: 1.2rem;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
+    color: black;
 }
+.s-stock{
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-weight: bold;
+
+}
+.sad {
+    width: 1rem;
+    margin-left: 0.5rem;
+} 
 
 @media screen and (max-width: 700px) {
-    .btn{
+    .btn-contador{
         width: 3rem;
         height: 3rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0.8rem;
     }
     .contador{
         margin-top: 1rem;
