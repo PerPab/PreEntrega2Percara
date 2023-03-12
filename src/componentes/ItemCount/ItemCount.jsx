@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 
 const ItemCount = ({stockParam}) => {
 
-  const sad = '/public/sad.png'
+  const sad = '/sad.png'
 
  
   const [contador, setContador] = useState(0)
