@@ -6,7 +6,7 @@ function CartWidget() {
     <>
         <div className="contenedor-carrito">
         <img className="carrito-logo" src="./public/cart.svg" />
-        <span className="carrito-numero">101</span>
+        <span className="carrito-numero">0</span>
         </div>
        
       

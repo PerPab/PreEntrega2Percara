@@ -1,16 +1,21 @@
+import React from 'react'
 import ItemDetailContainer from "./ItemDetailContainer";
 import NavBar from "../componentes/NavBar/NavBar";
+import { useParams } from "react-router-dom";
 
 
 
 
-import React from 'react'
 
-const ItemRoot = (id) => {
+
+const ItemRoot = () => {
+
+  const idGame = useParams().id
+
   return (
     <div className="App">
         <NavBar />
-        <ItemDetailContainer id = {id}/>
+        <ItemDetailContainer id = {idGame}/>
     </div>
   )
 }

@@ -103,7 +103,7 @@
     margin: 0;
     padding: 0;
   }
-  .logo, .search, .search-field, .btn-search{
+  .logo{
     display: none;
   }
 

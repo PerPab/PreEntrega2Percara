@@ -16,7 +16,6 @@ const ItemList = ({ gamesList }) => {
             title={game.title}
             price={game.price}
             category={game.category}
-            description={game.description}
             image={game.image}
           />
         );

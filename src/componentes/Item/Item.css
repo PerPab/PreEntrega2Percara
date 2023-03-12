@@ -10,21 +10,24 @@
   background-color: whitesmoke;
   box-shadow: 2px 2px 14px 1px black;
 }
-.titulo {
-  top: 0.5rem;
+.categoria{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nombre{
+  font-size: 1.4rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 .imagen {
   margin: 1rem;
   max-height: 180px;
 }
 
-.descripcion {
-  font-weight: bold;
-  margin: 0.3rem;
-}
 .precio {
   margin: 0.3rem;
+  font-size: 1.3rem;
 }
 
 .btn-agregar {

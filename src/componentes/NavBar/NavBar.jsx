@@ -6,7 +6,6 @@ import {NavLink, Link} from 'react-router-dom'
 
 
 const NavBar = () => {
-  const url = '/search.svg'
   const logo = '/icono.png'
   return (
   
@@ -22,14 +21,9 @@ const NavBar = () => {
           <Link to='/category/Playstation' className="btn-ps" href="">PlayStation</Link>
         </li>
         <li className="item-lista pc">
-          <Link className="btn-pc" to="/category/pc">PC</Link>
+          <Link className="btn-pc" to="/category/PC">PC</Link>
         </li>
 
-        <li className="item-lista search">
-        <input className="search-field" type="text"/>
-        <button className="btn-search"><img src={url}/></button>
-        </li>
-        
         <button className="item-lista carrito">
           <CartWidget />
         </button>
