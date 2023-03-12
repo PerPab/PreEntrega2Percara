@@ -17,7 +17,7 @@
     align-items: center;
     justify-content: center;
     width: 70rem;
-    height: 30rem;
+    height: 80%rem;
     background-color: white;
     border-radius: 1rem;
     padding: 4rem;
@@ -45,10 +45,10 @@
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 100%rem;
+        height: 100%;
         background-color: white;
         border-radius: 1rem;
-        padding: 4rem;
+        padding: 0rem;
     }
     .item-detail {
       display: flex;
@@ -65,7 +65,11 @@
         display: flex;
         flex-direction: column;
     }
-    .descripcion {
+    .titulo {
+
+        margin-top: 1rem;
+        font-size: 1.5rem;
+
 
     }
   }
