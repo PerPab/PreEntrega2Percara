@@ -1,11 +1,13 @@
 import React from "react";
 import "../CartWidget/CartWidget.css";
 
+
 function CartWidget() {
+  const url= './public/cart.svg'
   return (
     <>
         <div className="contenedor-carrito">
-        <img className="carrito-logo" src="./public/cart.svg" />
+        <img className="carrito-logo" src={url} />
         <span className="carrito-numero">0</span>
         </div>
        

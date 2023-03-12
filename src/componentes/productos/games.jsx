@@ -8,7 +8,7 @@ const games = [
     img1:"https://as.com/meristation/imagenes/2018/06/11/album/1528674840_674840_000001_album_normal.jpg",
     img2:"https://cloudfront-us-east-1.images.arcpublishing.com/infobae/QN4Z423RLVCOHDFJMU52DOU3LM.jpg",
     price: "19.99",
-    stock: "1000",
+    stock: "10",
     title: "Forza Horizon",
   },
 
@@ -20,7 +20,7 @@ const games = [
     img1: "https://i0.wp.com/www.almadigitales.net/wp-content/uploads/2021/01/5ad0eb46146e711f008b4868.jpg?fit=1500%2C844&ssl=1",
     img2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTusJ4y7IHJ3093hWcJZjFQ-5Cqy-8EnQBHJw&usqp=CAU",
     price: "49.99",
-    stock: "1000",
+    stock: "20",
     title: "God of war",
   },
   {
@@ -32,7 +32,7 @@ const games = [
     img1: "https://cdn.cloudflare.steamstatic.com/steam/apps/1240440/ss_139cc855c27fe902e58ba8e7af0aad1aee6ac876.1920x1080.jpg?t=1678399532",
     img2: "https://assets.reedpopcdn.com/FhFqpLEXwAAm2qu.jpg/BROK/resize/1200x1200%3E/format/jpg/quality/70/FhFqpLEXwAAm2qu.jpg",
     price: "24.00",
-    stock: "1000",
+    stock: "3",
     title: "Halo Infinite",
   },
 
@@ -44,7 +44,7 @@ const games = [
     img1: "https://s1.eestatic.com/2022/02/17/el-cultural/blogs/homo_ludens/650945042_221952852_1706x960.jpg",
     img2: "https://s1.eestatic.com/2022/02/18/el-cultural/arte/videojuegos/651195205_221990881_1024x576.jpg",
     price: "19.99",
-    stock: "1000",
+    stock: "13",
     title: "Horizon",
   },
   {
@@ -56,7 +56,7 @@ const games = [
     img1: "https://cdn.mos.cms.futurecdn.net/qkWr8s8GYaMz8iAmuzSjQJ.jpg",
     img2: "https://megaobzor.com/uploads/stories/182431/1366_2000-2.webp",
     price: "19.99",
-    stock: "1000",
+    stock: "10",
     title: "Arma Reforged",
   },
 
@@ -68,7 +68,7 @@ const games = [
     img1: "https://psgames.com.ar/wp-content/uploads/2020/10/DAYS-GONE-2.jpg",
     img2: "https://psgames.com.ar/wp-content/uploads/2020/10/DAYS-GONE-4.jpg",
     price: "29.99",
-    stock: "1000",
+    stock: "8",
     title: "Days Gone",
   },
   {
@@ -80,7 +80,7 @@ const games = [
     img1: "https://www.somosxbox.com/wp-content/uploads/2023/01/imagenes-ingame-de-Stalker-2-3.jpg",
     img2: "https://assets.beartai.com/uploads/2022/03/Stalker-2-cover.jpg",
     price: "19.99",
-    stock: "1000",
+    stock: "1",
     title: "Stalker 2",
   },
 
@@ -92,7 +92,7 @@ const games = [
     img1: "https://projectzomboid.com/blog/content/uploads/2022/01/defend.jpg",
     img2: "https://www.kotaku.com.au/wp-content/uploads/sites/3/2013/11/pzomb.jpg?quality=80&resize=1280,720",
     price: "10.99",
-    stock: "1000",
+    stock: "10",
     title: "Project Zomboid",
   }
 ];

@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './routes/App'
 import './main.css'
-import ItemDetailContainer from './routes/ItemDetailContainer'
 import ItemRoot from './routes/ItemRoot'
 
 
