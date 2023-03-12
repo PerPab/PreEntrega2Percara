@@ -10,15 +10,14 @@
   background-color: whitesmoke;
   box-shadow: 2px 2px 14px 1px black;
 }
-.categoria{
+.categoria {
   font-weight: bold;
   font-size: 1.2rem;
 }
 
-.nombre{
+.nombre {
   font-size: 1.4rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  
 }
 .imagen {
   margin: 1rem;
@@ -39,8 +38,7 @@
   cursor: pointer;
   color: white;
   font-size: 1.1rem;
-  background-color: #A7215F;
-
+  background-color: #a7215f;
 }
 
 .btn-agregar:hover {

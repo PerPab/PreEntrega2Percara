@@ -1,6 +1,3 @@
-
-
-
 .nav {
   display: flex;
   width: 100%;
@@ -13,7 +10,7 @@
   margin-right: 2rem;
   font-size: 1.3rem;
 }
-.cart{
+.cart {
   margin-left: 35%;
 }
 .carrito {
@@ -22,62 +19,54 @@
   border-radius: 15px;
   margin: 1 rem;
   padding: 0.3rem;
-  
 }
 
-.brand{
+.brand {
   font-size: 1.5rem;
   margin-right: 2rem;
-  
 }
 .brandname {
   font-size: 1.5rem;
   padding-right: 3rem;
- 
- 
 }
 
 .logo {
   width: 2rem;
   margin-right: 1rem;
-
 }
 
 .btn-xbox:hover {
   color: greenyellow;
-
 }
 
 .btn-ps:hover {
   color: #0247b6;
-
 }
 
 .btn-pc:hover {
   color: gold;
-  
 }
 
-
 @media screen and (max-width: 700px) {
-
-  .nav{
+  .nav {
     position: relative;
     justify-content: flex-start;
     align-items: flex-start;
   }
 
-  .brandname{ 
+  .brandname {
     font-size: 1rem;
     margin: 0;
     padding: 0;
     margin-right: 1rem;
   }
-  .logo{
+  .logo {
     display: none;
   }
 
-  .btn-pc, .btn-ps, .btn-xbox {
+  .btn-pc,
+  .btn-ps,
+  .btn-xbox {
     font-size: 1.3rem;
     padding: 0;
     margin-bottom: 0.5rem;
@@ -92,21 +81,14 @@
     padding: 0;
     margin: 0;
     border-radius: 5px;
-    
   }
 
   .navbar-toggler-icon {
-
     background-color: aliceblue;
   }
 
-  .navbar-toggler, .collapsed {
+  .navbar-toggler,
+  .collapsed {
     background-color: aliceblue;
   }
-
-  
-
-  
-
-
 }
