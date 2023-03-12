@@ -78,7 +78,7 @@ const games = [
     image:
       "https://cdn.shopify.com/s/files/1/1105/5152/products/S.T.A.L.K.E.R.2HeartofChernobyl-XboxSeries1_1024x1024.jpg?v=1639066297",
     img1: "https://www.somosxbox.com/wp-content/uploads/2023/01/imagenes-ingame-de-Stalker-2-3.jpg",
-    img2: "https://assets.beartai.com/uploads/2022/03/Stalker-2-cover.jpg",
+    img2: "https://www.stalker2.com/_nuxt/img/assets/pages/game/the_danger/03.jpg",
     price: "19.99",
     stock: "1",
     title: "Stalker 2",
