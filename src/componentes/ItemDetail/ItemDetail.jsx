@@ -1,8 +1,22 @@
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ItemCount from "../ItemCount/ItemCount";
 import "./ItemDetail.css";
 const ItemDetail = ({ datosParam }) => {
+const [contador, setContador] = useState(0);
+
+useEffect(()=>{
+  setCantidadCarrito(contador)
+},[contador])
+
+  const [cantidadCarrito, setCantidadCarrito] = useState(contador)
+
+  function onAdd () {
+    alert(`Cantidad agregada ${cantidadCarrito}`)
+    setContador(0)
+
+  }
+
   return ( 
     <div className="itemDetail">
       <div className="contenedor-item">
@@ -12,7 +26,12 @@ const ItemDetail = ({ datosParam }) => {
           <img className="imagen-1" src={datosParam.img1} />
           <img className="imagen-2" src={datosParam.img2} />
         </div>
-        <ItemCount stockParam={datosParam.stock} />
+        <ItemCount 
+          stockParam={datosParam.stock}
+          contador = {contador}
+          setContador = {setContador}
+          />
+        <button className="btn-cont-carrito" onClick={onAdd}>Agregar al carrito</button>
       </div>
     </div>
   );
