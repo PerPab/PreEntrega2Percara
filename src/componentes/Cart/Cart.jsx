@@ -1,8 +1,15 @@
 import React from 'react'
+import NavBar from '../NavBar/NavBar'
+import './Cart.css'
 
 const Cart = () => {
   return (
-    <div>Cart</div>
+    <>
+    <NavBar />
+    <div className='container-carrito'>
+      <span className='texto-carrito'>Carrito</span>
+    </div>
+    </>
   )
 }
 
