@@ -7,9 +7,15 @@
   flex-direction: column;
   width: 200px;
   border-radius: 20px;
-  background-color: whitesmoke;
+  background-color: white;
   box-shadow: 2px 2px 14px 1px black;
 }
+.card-link:-webkit-any-link {
+  text-decoration: none;
+  color: rgb(8, 3, 3);
+  cursor: pointer;
+}
+
 .categoria {
   font-weight: bold;
   font-size: 1.2rem;
@@ -26,6 +32,8 @@
 
 .precio {
   margin: 0.3rem;
+  margin-bottom: 0.7rem;
+  margin-top: 0rem;
   font-size: 1.3rem;
 }
 

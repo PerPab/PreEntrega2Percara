@@ -1,5 +1,5 @@
 import React from "react";
-import ItemDetailContainer from "./ItemDetailContainer";
+import ItemDetailContainer from "../componentes/ItemDetailContainer/ItemDetailContainer";
 import NavBar from "../componentes/NavBar/NavBar";
 import { useParams } from "react-router-dom";
 

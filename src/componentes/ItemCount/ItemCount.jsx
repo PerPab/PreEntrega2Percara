@@ -2,18 +2,28 @@ import React from "react";
 import "./ItemCount.css";
 import { useState, useEffect } from "react";
 
+
 const ItemCount = ({ stockParam }) => {
   const sad = "/sad.png";
-
   const [contador, setContador] = useState(0);
   const [stockDis, setStock] = useState(stockParam);
+  const [cantidadAddOn, setCantidadAddOn] = useState(0)
 
-  useEffect(() => {
+    useEffect(() => {
     stockDis == undefined && setStock(stockParam);
-  });
+  },[stockParam]);
+
+  useEffect(()=>{
+    setCantidadAddOn(contador)
+  },[contador])
+
+  function onAdd () {
+    alert(`cantidad agregada al carrito ${cantidadAddOn}`)
+    setContador(0)
+  }
 
   return (
-    <div>
+    <div className="container-cont">
       {stockDis > 0 ? (
         <p className="stock">Stock disponible: {stockDis}</p>
       ) : (
@@ -42,6 +52,7 @@ const ItemCount = ({ stockParam }) => {
           +
         </button>
       </div>
+      <button className="btn-cont-carrito" onClick={onAdd}>Agregar al carrito</button>
     </div>
   );
 };

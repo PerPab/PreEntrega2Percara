@@ -1,21 +1,19 @@
 import React from "react";
-import ItemDetail from "../componentes/ItemDetail/ItemDetail";
+import ItemDetail from "../ItemDetail/ItemDetail";
 import "./ItemDetailContainer.css";
-import NavBar from "../componentes/NavBar/NavBar";
-import { getGames } from "../componentes/productos/games";
-import { useParams } from "react-router-dom";
+
+import { getGames } from "../../../Mock/games";
+
 import { useEffect, useState } from "react";
 
 const ItemDetailContainer = ({ id }) => {
-  const [datos, setdatos] = useState({});
-  //console.log("id parametro" + id)
+  const [datos, setdatos] = useState(null);
   useEffect(() => {
     const games = getGames();
     games
       .then((gamesList) => {
         const data = gamesList.find((games) => games.id == id);
         setdatos(data);
-        //console.log(data)
       })
       .catch((error) => {
         console.log(`Ha ocurrido un error: ${error}`);
@@ -24,7 +22,7 @@ const ItemDetailContainer = ({ id }) => {
 
   return (
     <div className="itemContainer">
-      <ItemDetail datos={datos} />
+      {datos ? <ItemDetail datosParam={datos} /> : <span className="span">Cargando...</span>}
     </div>
   );
 };

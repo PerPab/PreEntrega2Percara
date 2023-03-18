@@ -3,7 +3,7 @@ import "./ItemListContainer.css";
 import { useState, useEffect } from "react";
 import "../ItemListContainer/ItemListContainer.css";
 import ItemList from "../ItemList/ItemList";
-import { getGames } from "../productos/games";
+import { getGames } from "../../../Mock/games";
 
 const ItemListContainer = ({ isCategoria, categoria }) => {
   const [useGame, setGame] = useState([]);
@@ -28,7 +28,7 @@ const ItemListContainer = ({ isCategoria, categoria }) => {
       .catch((error) => {
         console.log(`Ha ocurrido un error: ${error}`);
       });
-  });
+  },[categoria]);
 
   return (
     <div className="contenedor-item-list">
